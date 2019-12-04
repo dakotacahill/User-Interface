@@ -87,6 +87,10 @@ nav {
 	outline: none;
 }
 
+.navButton:hover { 
+	opacity: .5;
+}
+
 .logo {
 	float: right;
 	padding: 15px 0px 0px 0px;
