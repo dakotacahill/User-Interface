@@ -62,25 +62,73 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body {
+	margin: auto;
+	width: 900px;
+}
 
 nav {
-	letter-spacing: 15px;;
+	display: inline-block;
+	text-align: center;
+	height: 55px;
+	padding: 20px 0px px 0px;
 }
 
-.logo { 
-	position: absolute;
-	right: 150px;	
+.navButton { 
+	font-size: 12px;
+	color: black;
+	margin: 25px 20px;
+	position: relative;
+	border: none;
+	outline: none;
 }
 
-.header { 
-
+.logo {
+	float: right;
+	padding: 15px 0px 0px 0px;
 }
 
-address { 
-	display: block;
-	font-style: italic;
+#headlineText { 
+	display: inline-block;
+	text-align: center;
+	font-size: 80px;
+	margin: 90px 0px;
+	padding: 0px 50px;
+}
+
+#headlineButton {
+	font-weight: 300;
+	background: white;
+	margin-top: 4px;
+	padding: 8px 40px;
+	font-size: 15px;
+	border: 1px solid black;
+}
+
+#headlineImage { 
+	
+}
+
+.big-container .topContent {
+	display: inline-block;
+	width: 400px;
+	margin: 1% 1% 1% 1%;
+	padding: 20px 0; 
+	line-height: 17px;
+}
+
+.big-container .bottomContent {
+	display: inline-block;
+	width: 270px;
+	margin: 1% 1% 1% 1%;
+	padding: 20px 0; 
+	line-height: 17px;
+}
+
+#CR { 
+	text-align: center;
 }
